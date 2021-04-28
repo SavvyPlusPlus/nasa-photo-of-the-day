@@ -1,17 +1,14 @@
-import React from 'react'
-import "./Body.css";
+import React, { useState } from 'react'
+
 
 
 
 function Body(props) {
     const {data} = props;
+    const copy = data.copyright;
     
     return (
-        <div>
-           
-
-
-        </div>
+            <p>{copy}</p>
     );
 };
 

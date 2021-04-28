@@ -10,8 +10,6 @@ function Header(props) {
         <div>
             <h1>{data.title}</h1>
             <h4>{data.date}</h4>
-
-
         </div>
     );
 };

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import Gallery from './components/galleryContainer/gallery';
 import Header from './components/Header/Header';
-import Body from './components/Body/Body';
+import Body from './components/Body/Body'
 import "./App.css";
 
 
@@ -26,7 +26,6 @@ function App() {
     <div className="App">
       <Header data ={data}/>
       <Gallery data ={data}/>
-      <Body data ={data}/>
     </div>
   );
 }
