@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.css";
-
+import styled from 'styled-components'
 
 
 function Header(props) {

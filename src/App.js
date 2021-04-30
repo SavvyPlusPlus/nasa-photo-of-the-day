@@ -31,3 +31,6 @@ function App() {
 }
 
 export default App;
+
+
+//STYLES are on gakllery.js
